@@ -1,0 +1,35 @@
+/* Candidate.css */
+
+.candidate {
+    border: 1px solid #ccc;
+    padding: 10px; /* Add padding to the candidate selection option */
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px; /* Set a maximum width to limit the width */
+    margin: 10px auto; /* Center-align the candidate option */
+    margin-bottom: 60px ; /* Center-align the candidate option */
+  }
+  
+  
+  .candidate img {
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .candidate p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .candidate.selected {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  

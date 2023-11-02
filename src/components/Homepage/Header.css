@@ -1,0 +1,22 @@
+/* Header.css */
+.header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* styles.css */
+.text-left {
+  animation: fade 0.5s infinite alternate;
+  margin-left: 20px; /* Adjust the value as needed for your desired spacing */
+}
+
+  .institute-logo {
+    width: 100px; /* Set the width to 50 pixels */
+    height: 100px; /* Set the height to 50 pixels */
+    margin-right: 10px;
+  }
+  

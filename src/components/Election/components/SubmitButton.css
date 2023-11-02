@@ -1,0 +1,26 @@
+/* SubmitButton.css */
+
+.submit-button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .submit-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
